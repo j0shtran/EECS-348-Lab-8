@@ -4,10 +4,10 @@ CFLAGS = -c -Wall
 
 all: prog 
 
-prog: lab8.o 
-	$(CC) lab8.o -o prog 
-lab8.o: lab8.c
-	$(CC) $(CFLAGS) lab8.c 
+prog: lab8_1.o 
+	$(CC) lab8_1.o -o prog 
+lab8_1.o: lab8_1.c
+	$(CC) $(CFLAGS) lab8_1.c 
 
 clean:
 	rm -rf *.o 
